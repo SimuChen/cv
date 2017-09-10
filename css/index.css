@@ -48,13 +48,14 @@ body{
 }
 #first{
 	width:100%;
-	height:310px;
+	height:350px;
 	background-color:#f0f7ff;
 }
 #name{
 	display:block;
-	margin-left:50%;
+	margin-left:52%;
 	margin-top:10px;
+	line-height:28px;
 }
 #jieshao{
 	font-size:25px;
@@ -185,10 +186,10 @@ a{
 	 padding-left:35px;
 }
 #exp{
-	padding-top:50px;
+	padding-top:60px;
 }
 #hobby{
-	padding-top:100px;
+	padding-top:170px;
 }
 .hide{display:none;}>/* CSS Document */
 
