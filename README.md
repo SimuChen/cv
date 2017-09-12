@@ -8,6 +8,7 @@
 <li>性别：女</li>
 <li>出生年月：1997-02-17</li>
 <li>联系方式：18308461662</li>
+<li>邮箱：chenshijie0217@foxmail.com</li>
 <li>github:https://github.com/SimuChen</li><br/>
 
 <h2>教育信息</h2>
