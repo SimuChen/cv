@@ -33,9 +33,18 @@ $(function() {
     //导航点击
     $(".nav-ul li").bind("click", function () {
         var index = $(this).index();//获取序号
-        _top = $(".section").eq(index+1).offset().top; //获取导航对应div距顶高度
+        _top = $(".section").eq(index+1).offset().top; //获取对应div距顶高度
         moveTo();
     });
+    //导航slideToggle
+    $(".more-nav").bind("click", function () {
+        $(".nav-ul.nav-xs-ul").stop().slideToggle(300);
+    });
+    function moveTo(){
+        $('html,body').animate({
+            scrollTop: _top
+        }, 500);
+    }
     $(".nav-xs-ul li").click(function () {
        $(".nav-xs-ul").slideUp(300)
     });
@@ -58,11 +67,11 @@ $(function() {
             $(".nav-ul li").eq(2).addClass("active").siblings().removeClass("active");
             $(".nav-xs-ul li").eq(2).addClass("active").siblings().removeClass("active");
             $("#section4").addClass("active");
-        }else if((s>top4)&&(s<top5)){
+        }else if(s>top4){
             $(".nav-ul li").eq(3).addClass("active").siblings().removeClass("active");
             $(".nav-xs-ul li").eq(3).addClass("active").siblings().removeClass("active");
             $("#section5").addClass("active");
-		}
+        }
     });
 
 });
