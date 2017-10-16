@@ -24,7 +24,7 @@
 
 <h2>项目经验</h2>
 手机商品宣传网页：<br>
-根据UI设计图使用HTML+CSS搭建基础页面，使用BEM开发模式的CSS命名规则，用CSS3和JavaScript实现了页面transition过渡动画和帧动画等效果。<br>
+根据UI设计图使用HTML+CSS搭建基础页面，使用BEM开发模式的CSS命名规则，用CSS3和JavaScript实现了页面transition过渡动画和帧动画等效果。<br><br>
 个人网页:<br/>
 运用HTML、CSS完成了页面的编写与设计，运用JS实现了导航条随页面滑动、页面信息的展现与点击效果<br/>
 
